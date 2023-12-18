@@ -20,8 +20,8 @@ This project contains an ETL pipeline developed to migrate web traffic analytics
 
 ## Project files
 
-## Postgres Schema
-Table:
+## Schema
+**Staging Table**:
 | Column Name           | Data Type       | Description                |
 |-----------------------|-----------------|----------------------------|
 | id                    | SERIAL          | Primary Key                |
