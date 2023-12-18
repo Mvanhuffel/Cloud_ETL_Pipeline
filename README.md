@@ -23,8 +23,9 @@ This project contains an ETL pipeline developed to migrate web traffic analytics
 
 ## Project files
 
-```sheets_to_sql.py``` : ETL script
-```config.yaml``` : Configuration File for ETL Process. Contains settings and parameters for database connections, API credentials, file paths, and other operational specifications used by the ETL script.
+```sheets_to_sql.py```: ETL script
+
+```config.yaml```: Configuration File for ETL Process. Contains settings and parameters for database connections, API credentials, file paths, and other operational specifications used by the ETL script.
 
 
 ## Schema
