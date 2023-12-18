@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project contains an ETL pipeline developed to migrate web traffic analytics data from wix to a PostgreSQL database. The pipeline is designed to extract data from google sheets, transform it according to the required schema, and load it into a postgreSQL database hosted on ElephantSQL (cloud based database service). This pipeline automates the process of data handling in order to seamlessly analyze traffic data for insightful decision making.
+This project contains an ETL pipeline developed to migrate web traffic analytics data from wix to a PostgreSQL database. The pipeline is designed to extract data from google sheets, transform it according to the required schema, and load it into a postgreSQL database hosted on ElephantSQL (cloud based database service). It automates the process of data handling in order to seamlessly analyze traffic data for insightful decision making.
 
 ## Features
 - **Data Extraction**: Fetches data from Google Sheets, utilizing the Google Sheets API.
