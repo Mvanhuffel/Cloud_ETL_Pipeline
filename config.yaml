@@ -1,0 +1,10 @@
+db_username: 'PLACEHOLDER' # Replace with your ElephantSQL username
+db_password: 'PLACEHOLDER' # Replace with your ElephantSQL password
+db_host: 'PLACEHOLDER' # Replace with your ElephantSQL server
+db_port: '5432' # Default PostgreSQL port
+db_name: 'PLACEHOLDER' # Replace with your ElephantSQL database name
+schema_name: 'ccp' # Your new schema name
+staging_table_name: 'ccp_traffic' # Your table name
+file_id: 'PLACEHOLDER' # Replace with your Google Sheet file ID
+log_file_path: 'logs/etl_log.log'
+service_account_file: 'data/PLACEHOLDER.json' # Replace with path to your service account file
