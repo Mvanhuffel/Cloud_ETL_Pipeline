@@ -18,10 +18,30 @@ This project contains an ETL pipeline developed to migrate web traffic analytics
 - **Google Sheets API**: Used for extracting data from Google Sheets.
 - **GitHub**: For version control and sharing the project publicly.
 
-## Setup and Usages
-coming soon. 
-
 ## Project files
 
 ## Postgres Schema
+Table:
+| Column Name           | Data Type       | Description                |
+|-----------------------|-----------------|----------------------------|
+| id                    | SERIAL          | Primary Key                |
+| Day                   | DATE            | Date of visit              |
+| Visitor_Type          | VARCHAR(50)     | Type of the visitor        |
+| Site_Member           | BOOLEAN         | Whether a site member      |
+| Traffic_Category      | VARCHAR(50)     | Category of the traffic    |
+| Traffic_Source        | VARCHAR(50)     | Source of the traffic      |
+| Traffic_Source_URL    | TEXT            | URL of the traffic source  |
+| Page_Path             | TEXT            | Path of the visited page   |
+| Page_URL              | TEXT            | URL of the visited page    |
+| Country               | VARCHAR(50)     | Visitor's country          |
+| Device_Type           | VARCHAR(50)     | Type of device used        |
+| Page_Views            | INT             | Number of page views       |
+| Site_Sessions         | INT             | Number of site sessions    |
+| Unique_Visitors       | INT             | Number of unique visitors  |
+| Bounce_Rate           | VARCHAR(10)     | Bounce rate                |
+| Avg_Session_Duration  | VARCHAR(10)     | Average session duration   |
+| Avg_Time_On_Page      | VARCHAR(10)     | Average time on a page     |
+| Avg_Pages_Per_Session | INT             | Average pages per session  |
 
+## Setup and Usages
+coming soon. 
