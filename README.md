@@ -5,7 +5,7 @@
 Contains an ETL pipeline developed to handle web traffic analytics data. Designed to extract data from google sheets, transform it according to the required schema, and load it into a postgreSQL database hosted on ElephantSQL (cloud based database service). This pipeline automates the process of data handling in order to seamlessly analyze traffic data for insightful decision making.
 
 ## Features
-- ##Data Extraction##: Fetches data from Google Sheets, utilizing the Google Sheets API.
+- **Data Extraction**: Fetches data from Google Sheets, utilizing the Google Sheets API.
 - Data Transformation: Converts and prepares the data for database insertion, ensuring compatibility with the PostgreSQL schema.
 - Data Loading: Inserts the transformed data into a PostgreSQL database, managing data integrity and consistency.
 
