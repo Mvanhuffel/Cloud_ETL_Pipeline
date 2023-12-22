@@ -11,6 +11,8 @@ This project contains an ETL pipeline developed to migrate web traffic analytics
 - **Data Extraction**: Fetches data from Google Sheets, utilizing the Google Sheets API.
 - **Data Transformation**: Converts and prepares the data for database insertion, ensuring compatibility with the PostgreSQL schema.
 - **Data Loading**: Inserts the transformed data into a PostgreSQL database, managing data integrity and consistency.
+- **YAML Configuration Management**: Utilizes a YAML file for easy and secure configuration management.
+- **Logging**: Implements comprehensive logging throughout the data processing pipeline.
 
 ## Tools/Languages
 - **Python**: The primary programming language used for scripting the ETL process.
