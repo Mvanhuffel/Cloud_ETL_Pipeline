@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project contains an ETL pipeline developed to migrate web traffic analytics data from wix to a PostgreSQL database. The pipeline is designed to extract data from google sheets, transform it according to the required schema, and load it into a postgreSQL database hosted on ElephantSQL (cloud based database service). It automates the process of data handling in order to seamlessly analyze traffic data for insightful decision making.
+This project contains an ETL pipeline developed to migrate analytics data from google sheets to a PostgreSQL database. The pipeline is designed to extract data from google sheets, transform it according to the required schema, and load it into a postgreSQL database hosted on ElephantSQL (cloud based database service). It automates the process of data handling in order to seamlessly query data for insightful decision making.
 
 ![etl_flow](etl_flow.png)
 
@@ -31,6 +31,8 @@ This project contains an ETL pipeline developed to migrate web traffic analytics
 
 
 ## Schema
+
+
 **Staging Table**:
 | Column Name           | Data Type       | Description                |
 |-----------------------|-----------------|----------------------------|
@@ -54,4 +56,17 @@ This project contains an ETL pipeline developed to migrate web traffic analytics
 | Avg_Pages_Per_Session | INT             | Average pages per session  |
 
 ## Setup and Usages
-coming soon. 
+
+**Prerequisites**:
+- Python 3.x
+- Python packages installed.
+- Access to a PostgreSQL database.
+- Google cloud platform account with google sheets API enabled.
+
+**Execute ETL script**: 
+Navigate to directory which contains the script in your terminal and run the following:
+```python sql_to_sheets.py```
+
+
+
+  
