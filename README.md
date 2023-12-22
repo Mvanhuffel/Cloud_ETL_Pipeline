@@ -64,6 +64,7 @@ This project contains an ETL pipeline developed to migrate analytics data from g
 - Google cloud platform account with google sheets API enabled.
 
 **Execute ETL script**: 
+
 Navigate to directory which contains the script in your terminal and run the following:
 ```python sql_to_sheets.py```
 
