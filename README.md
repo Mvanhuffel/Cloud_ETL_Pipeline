@@ -31,9 +31,9 @@ This project contains an ETL pipeline developed to migrate analytics data from g
 
 
 ## Schema
+The data is initially stored in a staging table before transformations are made in postgres.
 
-
-**Staging Table**:
+**Sample taging Table**:
 | Column Name           | Data Type       | Description                |
 |-----------------------|-----------------|----------------------------|
 | id                    | SERIAL          | Primary Key                |
