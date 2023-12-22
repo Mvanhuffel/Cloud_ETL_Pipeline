@@ -1,4 +1,4 @@
-# Cloud ETL Traffic Data Pipeline
+# Cloud ETL Data Pipeline
 
 ## Project Overview
 
